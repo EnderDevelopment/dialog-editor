@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "dialogmod",
+  "version": "1.0.0",
+  "name": "DialogMod",
+  "description": "A Fabric mod for Minecraft that adds a /dialog command for creating and managing custom dialogs.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/yourusername/dialogmod"
+  ],
+  "license": "MIT",
+  "icon": "assets/dialogmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.philipiocmd.dialogmod.DialogMod"
+    ]
+  },
+  "mixins": [
+    "dialogmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": ">=0.99.11+1.21.4",
+    "minecraft": "1.21.4"
+  }
+}
